@@ -47,7 +47,7 @@ app.get('/api/v0/samurai', (req, res) => {
 });
 
 // JSON endpoint. Return for individual objects
-app.get('/api/v0/samurai/:id', (req, res) => {
+app.get('/api/v0/bushi/:id', (req, res) => {
 
     let bushiId = req.params.id;
 
