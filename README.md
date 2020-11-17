@@ -17,5 +17,5 @@
 ### [acidtone](https://github.com/acidtone)
 - [In-class](https://github.com/sait-wbdv/in-class): I grab [import.js](https://github.com/sait-wbdv/in-class/blob/main/week10t/animals/import.js) also [models animals.js](https://github.com/sait-wbdv/in-class/blob/main/week10t/animals/models/animal.js).
 
-- [All About Japan](https://allabout-japan.com/en/article/5818/)
-  I used this website for make api.
+### [All About Japan](https://allabout-japan.com/en/article/5818/)
+  - I used this website for make api.
