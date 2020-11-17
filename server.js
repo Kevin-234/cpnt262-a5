@@ -35,6 +35,10 @@ db.once('open', function() {
 
 });
 
+app.get('/', function(req, res){
+  res.send('<h1>Welcome Bushi Arts</h1><p>Enter this endpoint /api/v0/bushi if you want to return array of objects</p><p>or enter this endpoint /api/v0/bushi/:id to return individual objects.</p><p>Id must be 1 to 10</p>.')
+})
+
 app.get('/api/v0/bushi', (req, res) => {
     Bushi.find({}, (err, data) => {
         if (err) {
