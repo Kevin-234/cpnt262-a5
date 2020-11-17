@@ -7,12 +7,12 @@
 - [Heroku: not found](https://cpnt262---a5.herokuapp.com/api/v0/bushi/99) 
 
 ## GitHub [Repo](https://github.com/Kevin-234/cpnt262-a5)
-----
+
 ## Comments
 - I deployed to Heroku couple times, but heroku displayed error. The issue was my MongoDB wasn't connected to Heroku.
   Thanks to Vincent helped me out how to connect MongoDB Altas to Heroku.
 + Bushi is another word for Samurai.
-----
+
 ## Attributions
 ### [acidtone](https://github.com/acidtone)
 - [In-class](https://github.com/sait-wbdv/in-class): I grab [import.js](https://github.com/sait-wbdv/in-class/blob/main/week10t/animals/import.js) also [models animals.js](https://github.com/sait-wbdv/in-class/blob/main/week10t/animals/models/animal.js).
