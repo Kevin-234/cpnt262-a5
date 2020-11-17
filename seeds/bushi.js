@@ -48,7 +48,7 @@ const bushi = [
         id: 10,
         title: 'Sanada Yukimura',
         description: 'Famous Samurai',
-    },
+    }
     
-]
+];
 module.exports = bushi;

@@ -35,7 +35,7 @@ db.once('open', function() {
 
 });
 
-app.get('/api/v0/samurai', (req, res) => {
+app.get('/api/v0/bushi', (req, res) => {
     Bushi.find({}, (err, data) => {
         if (err) {
             res.send('Could not retrieve products')
@@ -49,9 +49,7 @@ app.get('/api/v0/samurai', (req, res) => {
 // JSON endpoint. Return for individual objects
 app.get('/api/v0/bushi/:id', (req, res) => {
 
-    let bushiId = req.params.id;
-
-    Bushi.findOne({id: bushiId}, (err, data) => {
+    Bushi.findOne({id: req.params.id}, (err, data) => {
       if (err || data===null) {
         res.send('Could not find product');
         console.log(err);
@@ -61,6 +59,7 @@ app.get('/api/v0/bushi/:id', (req, res) => {
       }
     });
   });
+  
 // Add more middleware
 app.use(function(req, res, next) {
     res.status(404);
