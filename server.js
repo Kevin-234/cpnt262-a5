@@ -55,7 +55,7 @@ app.get('/api/v0/bushi/:id', (req, res) => {
 
     Bushi.findOne({id: req.params.id}, (err, data) => {
       if (err || data===null) {
-        res.send('Could not find product');
+        res.send('Could not find Bushi');
         console.log(err);
       }
       else {
