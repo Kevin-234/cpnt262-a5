@@ -27,7 +27,7 @@ const bushi = [
     {
         id: 6,
         title: 'Miyamoto Musashi',
-        description: 'known for his two-sword (Niten Ichi-ryu) style',
+        description: 'Known for his two-sword (Niten Ichi-ryu) style',
     },
     {
         id: 7,
@@ -47,8 +47,18 @@ const bushi = [
     {
         id: 10,
         title: 'Sanada Yukimura',
-        description: 'Famous Samurai',
-    }
+        description: 'Strategist',
+    },
+    {
+        id: 11,
+        title: "Kusunoki Masashige",
+        description: " Military strategist ",
+    },
+    {
+        id: 12,
+        title: "Tomoe Gozen",
+        description: "Female martial artist",
+    },
     
 ];
 module.exports = bushi;
