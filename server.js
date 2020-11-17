@@ -32,17 +32,16 @@ db.on('error', function(error){
 
 db.once('open', function() {
   console.log('Connected to DB...');
-
 });
 
 app.get('/', function(req, res){
-  res.send('<h1>Welcome Bushi Arts</h1><p>Enter this endpoint /api/v0/bushi if you want to return array of objects</p><p>or enter this endpoint /api/v0/bushi/:id to return individual objects.</p><p>Id must be 1 to 10</p>.')
+  res.send('<h1>Welcome Bushi Arts</h1><p>Enter this endpoint /api/v0/bushi if you want to return array of objects</p><p>or enter this endpoint /api/v0/bushi/:id to return individual objects.</p><p>Id must be number 1 to 12</p>.')
 })
 
 app.get('/api/v0/bushi', (req, res) => {
     Bushi.find({}, (err, data) => {
         if (err) {
-            res.send('Could not retrieve products')
+            res.send('Could not retrieve Bushi')
         }
         else {
             res.json(data);
